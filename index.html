@@ -3,28 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adilreg</title>
-    <link rel="stylesheet" href="style.css">
+    <title>FLOWERS PRO - Fleuriste Professionnel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo" width="100">
-        <h1>ADIL NAGASSAKI</h1>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">FLOWERS PRO</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <nav class="main-navigation">
-        <a href="index.html" class="nav-link">Accueil</a>
-        <a href="about.html" class="nav-link">À propos</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-    </nav>
-    
-    <main>
-        <p>Ceci est mon premier site hébergé sur <strong>GitHub Pages</strong>.</p>
-        <button id="clickMe">Clique-moi !</button>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="hero">
+                <h2>L'excellence florale à votre service</h2>
+                <p>Pour en savoir plus sur notre site, cliquez ici :</p>
+                <a href="about.html" class="cta-button">Découvrir</a>
+            </section>
+        </div>
     </main>
-    <footer>
-        <p>© 2025 - MonSite</p>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 - Regragui Adli. Tous droits réservés.</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
